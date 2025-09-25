@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "shield-reset-sound",
+	"version": "${version}",
+	"name": "shield reset sound",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https:
+		"sources": "https:
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/shield-reset-sound/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.christhabot.shield_reset_sound.ShieldResetSound"
+		],
+		"client": [
+			"io.github.christhabot.shield_reset_sound.ShieldResetSoundClient"
+		],
+		"modmenu": [
+			"io.github.christhabot.shield_reset_sound.ShieldResetSoundModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"shield-reset-sound.mixins.json",
+		{
+			"config": "shield-reset-sound.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
