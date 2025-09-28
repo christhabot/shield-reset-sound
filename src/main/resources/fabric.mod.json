@@ -1,0 +1,52 @@
+{
+	"schemaVersion": 1,
+	"id": "shield-reset-sound",
+	"version": "${version}",
+	"name": "shield reset sound",
+	"description": "Plays a configurable sound (defaulted to note block) when your shield cooldown resets",
+	"authors": [
+		"ChrisThaBot"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/shield-reset-sound",
+		"sources": "https://github.com/christhabot/shield-reset-sound",
+		"issues": "https://github.com/christhabot/shield-reset-sound/issues"
+	},
+	"license": "CC-BY-NC-ND-4.0",
+	"icon": "assets/shield-reset-sound/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.christhabot.shield_reset_sound.ShieldResetSound"
+		],
+		"client": [
+			"io.github.christhabot.shield_reset_sound.ShieldResetSoundClient"
+		],
+		"modmenu": [
+			"io.github.christhabot.shield_reset_sound.ShieldResetSoundModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"shield-reset-sound.mixins.json",
+		{
+			"config": "shield-reset-sound.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/AT7RdgZDj6"
+			}
+		}
+	}
+}
