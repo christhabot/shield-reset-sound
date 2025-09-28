@@ -1,15 +1,15 @@
 {
-  "text.autoconfig.shield_reset_sound.title": "Shield Seset Sound Settings",
+  "text.autoconfig.ShieldResetSound.title": "Shield Seset Sound Settings",
 
-  "text.autoconfig.shield_reset_sound.option.sound": "Sound Type",
-  "text.autoconfig.shield_reset_sound.option.sound.@Tooltip": "The official name of the sound effect you want to use. You can find this by searching 'minecraft sounds' and reading through the DigMinecraft site",
+  "text.autoconfig.ShieldResetSound.option.sound": "Sound Type",
+  "text.autoconfig.ShieldResetSound.option.sound.@Tooltip": "The official name of the sound effect you want to use. You can find this by searching 'minecraft sounds' and reading through the DigMinecraft site",
 
-  "text.autoconfig.shield_reset_sound.option.noteblock_type": "Noteblock type",
-  "text.autoconfig.shield_reset_sound.option.noteblock_type.@Tooltip": "If sound type is set to note block, this sets the type of note block.",
+  "text.autoconfig.ShieldResetSound.option.noteblock_type": "Noteblock type",
+  "text.autoconfig.ShieldResetSound.option.noteblock_type.@Tooltip": "If sound type is set to note block, this sets the type of note block.",
 
-  "text.autoconfig.shield_reset_sound.option.volume": "Volume",
-  "text.autoconfig.shield_reset_sound.option.volume.@Tooltip": "The volume of the sound played, as a percentage (0-100)",
+  "text.autoconfig.ShieldResetSound.option.volume": "Volume",
+  "text.autoconfig.ShieldResetSound.option.volume.@Tooltip": "The volume of the sound played, as a percentage (0-100)",
 
-  "text.autoconfig.shield_reset_sound.option.pitch": "Pitch",
-  "text.autoconfig.shield_reset_sound.option.pitch.@Tooltip": "The pitch of the sound played, as a percentage (0-500, 100 is default)"
+  "text.autoconfig.ShieldResetSound.option.pitch": "Pitch",
+  "text.autoconfig.ShieldResetSound.option.pitch.@Tooltip": "The pitch of the sound played, as a percentage (0-500, 100 is default)"
 }
