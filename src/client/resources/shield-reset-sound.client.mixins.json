@@ -3,7 +3,8 @@
   "package": "io.github.christhabot.shield_reset_sound.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "ItemCooldownManagerMixin"
+    "ItemCooldownManagerMixin",
+    "ClientPlayerEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
